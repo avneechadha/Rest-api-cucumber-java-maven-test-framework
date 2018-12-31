@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 447328119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "getWeather.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User calls a web service to get weather using Open Weather API",
+        "description": "",
+        "id": "open-weather-api;user-calls-a-web-service-to-get-weather-using-open-weather-api;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 29829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "getWeather.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92067614,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to execute web service to get weather using Open Weather API \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 73
+                }
+              ],
+              "location": "getWeather.user_wants_to_execute_web_service_to_get_weather_using_Open_Weather_API(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103405635,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user wants submits the GET request as per the data in Excel Worksheet",
+            "match": {
+              "location": "getWeather.user_wants_submits_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696645262,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "weather retrived successfully",
+            "match": {
+              "location": "getWeather.weather_retrived_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestCase1"
+          }
+        ]
+      }
+    ],
+    "name": "Open Weather API",
+    "description": "",
+    "id": "open-weather-api",
+    "keyword": "Feature",
+    "uri": "../Rest/src/main/java/feature/featureFile1.feature"
+  }
+]
