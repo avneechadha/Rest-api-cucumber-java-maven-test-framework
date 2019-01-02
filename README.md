@@ -1,10 +1,10 @@
-# selenium-cucumber-java-maven-test-framework
+# Rest-cucumber-java-maven-test-framework
 Test Automation Framework using REST, cucumber, java and maven
 <snippet>
   <content>
 ## Project Name
 Test Automation Framework using REST API, cucumber, java and maven
-https://github.com/vinodkrane/selenium-cucumber-java-maven-test-framework
+https://github.com/vinodkrane/Rest-api-cucumber-java-maven-test-framework
 
 ## Project Description
 It is a behavior driven development (BDD) approach to write automation test script to test RESTful applications. It enables you to write and execute automated acceptance/unit tests. It is cross-platform, open source and free. Automate your test cases with minimal coding. 
