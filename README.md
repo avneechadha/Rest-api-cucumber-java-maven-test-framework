@@ -1,9 +1,9 @@
 # Rest-cucumber-java-maven-test-framework
-Test Automation Framework using REST, cucumber, java and maven
+Test REST API using cucumber testing framework.
 <snippet>
   <content>
 ## Project Name
-Test Automation Framework using REST API, cucumber, java and maven
+Test Automation Framework to test REST API using cucumber, java and maven.
 https://github.com/vinodkrane/Rest-api-cucumber-java-maven-test-framework
 
 ## Project Description
